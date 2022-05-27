@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thái Kiên Garage</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <span class="material-symbols-outlined logo"> two_wheeler </span>
+      <nav class="header-nav">
+        <ul class="nav-links">
+          <li class="header-menu-item"><a href="">Cứu hộ</a></li>
+          <li class="header-menu-item"><a href="">Bảo dưỡng</a></li>
+          <li class="header-menu-item"><a href="">Về chúng tôi</a></li>
+          <li class="header-menu-item"><a href="">Phụ tùng</a></li>
+        </ul>
+      </nav>
+      <div class="button-container">
+        <a href="" class="sign-in-btn"><button>Sign in</button></a>
+        <a href="" class="sign-up-btn"><button>Sign up</button></a>
+      </div>
+    </header>
+
+    <!-- SLIDER -->
+    <div class="slider-section">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./img/slide_1.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/slide_2.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/slide_3.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./img/slide_4.jpg" style="width: 100%" />
+          <div class="text">Caption Four</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <!-- HELP -->
+    <section class="help-container">
+      <div class="accident">
+        <img src="./img/accident.jpg" alt="" />
+      </div>
+      <div class="need-help">
+        <h2 class="help-title">HAVE YOU HAD AN ACCIDENT ?</h2>
+        <p class="help-content">
+          Then do not hesitate and contact us on telephone number 02365 / 204034
+          or come and see us directly. We will help you quickly, efficiently and
+          easily. We are your reliable partner for repairing accident damage in
+          Marl and the surrounding area.
+        </p>
+        <p class="help-phone">
+          Call now: <a href="tel: 0962681305">0962681305</a>
+        </p>
+        <div class="help-btn">
+          <a href="">Get helps now !!!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <div class="booking-container-index">
+      <div class="booking-col1-index">
+        <h1>Dịch vụ</h1>
+        <ul>
+          <li>Thay nhớt</li>
+          <li>Kiểm tra bánh xe</li>
+          <li>Kiểm tra động cơ</li>
+          <li>Kiểm tra phanh</li>
+          <li>Kiểm tra điện</li>
+          <li>Kiểm tra phuộc nhúng</li>
+          <li>Kiểm tra tổng quát (combo giảm 10%)</li>
+        </ul>
+      </div>
+
+      <div class="booking-col2-index">
+        <h1>Xe ga</h1>
+        <ul>
+          <li>50.000 VND</li>
+          <li>100.000 VND</li>
+          <li>150.000 VND</li>
+          <li>100.000 VND</li>
+          <li>200.000 VND</li>
+          <li>20.000 VND</li>
+          <li>558.000 VND</li>
+        </ul>
+      </div>
+
+      <div class="booking-col3-index">
+        <h1>Xe số</h1>
+        <ul>
+          <li>15.000 VND</li>
+          <li>50.000 VND</li>
+          <li>100.000 VND</li>
+          <li>80.000 VND</li>
+          <li>125.000 VND</li>
+          <li>20.000 VND</li>
+          <li>351.000 VND</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <section class="product-list">
+      <h1>Phụ tùng</h1>
+
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-title">Xe ga</div>
+          <div class="product-image"><img src="./img/xega.jpg" alt="" /></div>
+          <div class="product-text">Phụ tùng xe ga</div>
+          <div>
+            <button class="product-btn">Buy now !!!</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-title">Xe số</div>
+          <div class="product-image"><img src="./img/xeso.jpg" alt="" /></div>
+          <div class="product-text">Phụ tùng xe số</div>
+          <div>
+            <button class="product-btn">Buy now !!!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGO SECTION -->
+    <section class="logos-section">
+      <div class="logos-container grid">
+        <div class="logos-content">
+          <img class="logos-img" src="./img/honda.png" alt="" />
+        </div>
+
+        <div class="logos-content">
+          <img class="logos-img" src="./img/yamaha.png" alt="" />
+        </div>
+
+        <div class="logos-content">
+          <img class="logos-img" src="./img/suzuki.png" alt="" />
+        </div>
+
+        <div class="logos-content">
+          <img class="logos-img" src="./img/ducati.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-icons-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram-square"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+      </div>
+      <div><h3 class="footer-title-h3">HÀ NỘI</h3></div>
+      <div class="hanoi-address">
+        <div class="hanoi-address-item">
+          <div class="title">35, Trần Phú, Q.Hà Đông</div>
+          <div class="phone">
+            <a href="tel:0961872608">Số điện thoại: 0961872608</a>
+          </div>
+        </div>
+        <div class="hanoi-address-item">
+          <div class="title">1, Nguyễn Trãi, Q.Hà Đông</div>
+          <div class="phone">
+            <a href="tel:0961872608">Số điện thoại: 0961872608</a>
+          </div>
+        </div>
+        <div class="hanoi-address-item">
+          <div class="title">98 Xuân Thủy, Q.Cầu Giấy</div>
+          <div class="phone">
+            <a href="tel:0961872608">Số điện thoại: 0961872608</a>
+          </div>
+        </div>
+        <div class="hanoi-address-item">
+          <div class="title">105 Tràng Tiền, Q.Hoàn Kiếm</div>
+          <div class="phone">
+            <a href="tel:0961872608">Số điện thoại: 0961872608</a>
+          </div>
+        </div>
+      </div>
+      <div><h3 class="footer-title-h3">TP HỒ CHÍ MINH</h3></div>
+      <div class="tphcm-address">
+        <div class="tphcm-address-item">
+          <div class="title">2 Phạm Văn Đồng, Q.Gò Vấp</div>
+          <div class="phone">
+            <a href="tel:0962681305">Số điện thoại: 0962681305</a>
+          </div>
+        </div>
+        <div class="tphcm-address-item">
+          <div class="title">355 CMT8, Q.10</div>
+          <div class="phone">
+            <a href="tel:0962681305">Số điện thoại: 0962681305</a>
+          </div>
+        </div>
+        <div class="tphcm-address-item">
+          <div class="title">268, Hai Bà Trưng, Q.1</div>
+          <div class="phone">
+            <a href="tel:0962681305">Số điện thoại: 0962681305</a>
+          </div>
+        </div>
+        <div class="tphcm-address-item">
+          <div class="title">1001 Võ Văn Kiệt, Q.6</div>
+          <div class="phone">
+            <a href="tel:0962681305">Số điện thoại: 0962681305</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./slider.js"></script>
+    <script
+      src="https://kit.fontawesome.com/40f0a0a663.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
